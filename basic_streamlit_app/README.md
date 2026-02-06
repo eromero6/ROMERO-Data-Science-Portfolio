@@ -1,6 +1,7 @@
 # 🎸 Oasis Audio Features Dashboard
 
 This project is an interactive **Streamlit dashboard** that explores the audio features, track lengths, and albums of the British rock band **Oasis**.  
+
 It combines data visualization with music history to provide a fun, intuitive way to explore Oasis’s discography.
 
 The app was built as a first Streamlit project and focuses on clean layout, clear explanations, and interactive exploration.
