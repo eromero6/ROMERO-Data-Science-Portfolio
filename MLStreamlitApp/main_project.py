@@ -56,13 +56,13 @@ with st.sidebar:
     y = st.selectbox("Select the target feature", features)
     df.dropna(subset=[y], inplace=True) # Handle missing values
 
-    if df[y].dtype == float and df[y].nunique() > 20:
+    if pd.api.types.is_float_dtype(df[y]) and df[y].nunique() > 20:
         st.error(f"'{y}' looks like a continuous column. Please choose a categorical target for classification.")
         st.stop()
 
-    if df[y].dtype == 'object' or str(df[y].dtype) == 'category':
+    if not pd.api.types.is_numeric_dtype(df[y]):
         le = LabelEncoder()
-        df[y] = le.fit_transform(df[y])
+        df[y] = le.fit_transform(df[y].astype(str))
 
     st.header("3.  Choose the features to the predict model")
     X = st.multiselect("Select features", features, default=[f for f in features if f != y])
@@ -70,7 +70,7 @@ with st.sidebar:
     # Preprocess X: drop rows with nulls in selected features, then encode categoricals
     df.dropna(subset=X, inplace=True)
     for col in X:
-        if df[col].dtype == 'object' or str(df[col].dtype) == 'category':
+        if not pd.api.types.is_numeric_dtype(df[col]):
             le = LabelEncoder()
             df[col] = le.fit_transform(df[col].astype(str))
 
@@ -225,7 +225,7 @@ with tab_data:
 
         with st.expander("Column types & missing values"):
             st.dataframe(
-                pd.DataFrame({"dtype": df.dtypes, "missing": df.isnull().sum()}),
+                pd.DataFrame({"dtype": df.dtypes.astype(str), "missing": df.isnull().sum()}),
                 use_container_width=False
             )
 
