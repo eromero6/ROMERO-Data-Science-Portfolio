@@ -6,6 +6,8 @@ It combines data visualization with music history to provide a fun, intuitive wa
 
 The app was built as a first Streamlit project and focuses on clean layout, clear explanations, and interactive exploration.
 
+**Live Demo:** [https://mainpy-bitvndnj83rocsasqj9oc6.streamlit.app/](https://mainpy-bitvndnj83rocsasqj9oc6.streamlit.app/)
+
 ---
 
 ## 📊 What the App Does
