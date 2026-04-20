@@ -9,6 +9,9 @@ model hyperparameters, and immediately see results and visualizations, all throu
 data where the correct answer is already known, and uses those patterns to make predictions on new data.
 This app focuses on **classification**, where the goal is to predict which category a sample belongs to.
 
+## Live Demo
+[Launch the app](https://romero-data-science-portfolio-fwkdgwtp9gyexbkbgwjduj.streamlit.app/)
+
 ## How to Run
 1. Clone the repository
 2. Install dependencies (see Requirements below)
