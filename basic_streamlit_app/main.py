@@ -7,7 +7,8 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 
 # Loading dataset - csv file
-df = pd.read_csv("data/Oasis.csv", index_col=0)
+from pathlib import Path
+df = pd.read_csv(Path(__file__).parent / "data" / "Oasis.csv", index_col=0)
 
 # Setting initial layout using 2 columns
 col1, col2 = st.columns(2)
