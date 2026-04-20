@@ -1,6 +1,6 @@
 # Data Science Portfolio
 
-This directory contains the projects I have worked on during my Introduction to Data Science course. Throughout the course, I will learn core machine learning concepts including model selection, feature engineering, hyperparameter tuning, and model evaluation. I will also gain exposure to topics such as neural networks, natural language processing (NLP), and fine-tuning pre-trained LLMs for analytics and decision-making. By the end of this course, I will have created a portfolio of data-driven web applications, integrating exploratory data analysis, machine learning models, and LLMs to solve practice problems and communicate findings.
+A collection of data science projects built with Python, covering data wrangling, interactive web applications, and supervised machine learning. Projects progress from foundational EDA to deployed, user-facing ML tools.
 
 Please refer to the table of contents for a quick explanation of each project and the relevant skills used.
 
@@ -11,8 +11,8 @@ Please refer to the table of contents for a quick explanation of each project an
 | Project | Description | Skills |
 |---|---|---|
 | [Tidy Data Project](TidyData-Project/) | Tidying and analyzing U.S. federal R&D budget data (1976–2017) | Data wrangling, pandas, seaborn, matplotlib |
-| [Streamlit App](basic_streamlit_app/) | Interactive data web application | Python, Streamlit |
-| [ML Streamlit App](MLStreamlitApp/) | Interactive supervised learning app with model training and evaluation | scikit-learn, Streamlit, classification, data preprocessing |
+| [Streamlit App](basic_streamlit_app/) | Interactive data web application — [Live Demo](https://mainpy-bitvndnj83rocsasqj9oc6.streamlit.app/) | Python, Streamlit |
+| [ML Streamlit App](MLStreamlitApp/) | Interactive supervised learning app with model training and evaluation — [Live Demo](https://romero-data-science-portfolio-fwkdgwtp9gyexbkbgwjduj.streamlit.app/) | scikit-learn, Streamlit, classification, data preprocessing |
 
 ---
 
