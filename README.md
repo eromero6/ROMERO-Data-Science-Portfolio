@@ -1,6 +1,6 @@
 # Data Science Portfolio
 
-A collection of data science projects built with Python, covering data wrangling, interactive web applications, and supervised machine learning. Projects progress from foundational EDA to deployed, user-facing ML tools.
+A collection of data science projects built with Python, covering data wrangling, interactive web applications, supervised machine learning, and unsupervised machine learning. Projects progress from foundational EDA to deployed, user-facing ML tools.
 
 Please refer to the table of contents for a quick explanation of each project and the relevant skills used.
 
@@ -13,6 +13,7 @@ Please refer to the table of contents for a quick explanation of each project an
 | [Tidy Data Project](TidyData-Project/) | Tidying and analyzing U.S. federal R&D budget data (1976–2017) | Data wrangling, pandas, seaborn, matplotlib |
 | [Streamlit App](basic_streamlit_app/) | Interactive data web application — [Live Demo](https://mainpy-bitvndnj83rocsasqj9oc6.streamlit.app/) | Python, Streamlit |
 | [ML Streamlit App](MLStreamlitApp/) | Interactive supervised learning app with model training and evaluation — [Live Demo](https://romero-data-science-portfolio-fwkdgwtp9gyexbkbgwjduj.streamlit.app/) | scikit-learn, Streamlit, classification, data preprocessing |
+| [ML Unsupervised App](MLUnsupervisedApp/) | Interactive unsupervised learning app covering PCA, K-Means, and Hierarchical Clustering | scikit-learn, scipy, Plotly, Streamlit, dimensionality reduction, clustering |
 
 ---
 
@@ -57,6 +58,25 @@ explanation to make the app accessible to learners at any level.
 and interactive application design in one end-to-end tool. It demonstrates the ability to translate
 model outputs into understandable insights — a critical skill for communicating data science work
 to non-technical audiences.
+
+### ML Unsupervised App: Learning Without Supervision
+**[View Project](MLUnsupervisedApp/)**
+
+An interactive unsupervised machine learning app built with Streamlit. Users can explore three
+algorithms — Principal Component Analysis (PCA), K-Means Clustering, and Hierarchical Clustering —
+using a built-in sample dataset or their own uploaded CSV. Each model page walks through data
+standardization, hyperparameter tuning via sliders and dropdowns, and multiple interactive
+visualizations. PCA includes a scree plot with a movable component selector and a loadings chart.
+K-Means features an elbow and silhouette plot to guide the choice of k, with an accuracy comparison
+against true labels. Hierarchical Clustering always renders the dendrogram first so users can
+visually identify a natural cut before selecting k, with an interactive world map choropleth
+(Plotly) for the sample dataset. Every section closes with a key takeaways panel that evaluates
+results in plain language.
+
+**How it complements this portfolio:** This project extends the portfolio into unsupervised learning —
+a fundamentally different paradigm where the algorithm finds structure without labels. It demonstrates
+the ability to build multi-model educational tools that guide users through algorithm intuition,
+preprocessing decisions, hyperparameter exploration, and result interpretation in a single, cohesive interface.
 
 ---
 
