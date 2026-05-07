@@ -15,7 +15,7 @@ behaves on real data — adjusting hyperparameters and watching results update i
 
 ## Live Demo
 
-*Deploy link — coming soon.*
+[Launch the app](https://ml-unsupervised-app.streamlit.app/)
 
 ## How to Run Locally
 
