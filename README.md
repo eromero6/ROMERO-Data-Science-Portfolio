@@ -13,7 +13,7 @@ Please refer to the table of contents for a quick explanation of each project an
 | [Tidy Data Project](TidyData-Project/) | Tidying and analyzing U.S. federal R&D budget data (1976–2017) | Data wrangling, pandas, seaborn, matplotlib |
 | [Streamlit App](basic_streamlit_app/) | Interactive data web application — [Live Demo](https://mainpy-bitvndnj83rocsasqj9oc6.streamlit.app/) | Python, Streamlit |
 | [ML Streamlit App](MLStreamlitApp/) | Interactive supervised learning app with model training and evaluation — [Live Demo](https://romero-data-science-portfolio-fwkdgwtp9gyexbkbgwjduj.streamlit.app/) | scikit-learn, Streamlit, classification, data preprocessing |
-| [ML Unsupervised App](MLUnsupervisedApp/) | Interactive unsupervised learning app covering PCA, K-Means, and Hierarchical Clustering | scikit-learn, scipy, Plotly, Streamlit, dimensionality reduction, clustering |
+| [ML Unsupervised App](MLUnsupervisedApp/) | Interactive unsupervised learning app covering PCA, K-Means, and Hierarchical Clustering - [Live Demo](https://ml-unsupervised-app.streamlit.app/) | scikit-learn, scipy, Plotly, Streamlit, dimensionality reduction, clustering |
 
 ---
 
