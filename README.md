@@ -14,6 +14,7 @@ Please refer to the table of contents for a quick explanation of each project an
 | [Streamlit App](basic_streamlit_app/) | Interactive data web application — [Live Demo](https://mainpy-bitvndnj83rocsasqj9oc6.streamlit.app/) | Python, Streamlit |
 | [ML Streamlit App](MLStreamlitApp/) | Interactive supervised learning app with model training and evaluation — [Live Demo](https://romero-data-science-portfolio-fwkdgwtp9gyexbkbgwjduj.streamlit.app/) | scikit-learn, Streamlit, classification, data preprocessing |
 | [ML Unsupervised App](MLUnsupervisedApp/) | Interactive unsupervised learning app covering PCA, K-Means, and Hierarchical Clustering - [Live Demo](https://ml-unsupervised-app.streamlit.app/) | scikit-learn, scipy, Plotly, Streamlit, dimensionality reduction, clustering |
+| [Chicago E-Scooter EDA](chicago_scooter_eda/) | Exploratory analysis of 2.2M+ e-scooter trips in Chicago — usage patterns, geographic disparities, vendor share, and hypothesis testing | pandas, seaborn, matplotlib, scipy |
 
 ---
 
@@ -77,6 +78,22 @@ results in plain language.
 a fundamentally different paradigm where the algorithm finds structure without labels. It demonstrates
 the ability to build multi-model educational tools that guide users through algorithm intuition,
 preprocessing decisions, hyperparameter exploration, and result interpretation in a single, cohesive interface.
+
+### Chicago E-Scooter EDA
+**[View Project](chicago_scooter_eda/)**
+
+An exploratory data analysis of over 2.2 million e-scooter trips taken in Chicago during 2025,
+using data from the City of Chicago Data Portal. The analysis investigates when, where, and how
+Chicagoans ride shared e-scooters — uncovering weekday commute patterns (dual peaks at 8–9 AM
+and 3–6 PM), a recreational lakefront shift on weekends, geographic concentration on the North
+Side and downtown with notable gaps on the South Side, and a surprisingly weak correlation
+(r = 0.087) between trip distance and duration. Hypothesis testing confirms that total daily
+trip volume is statistically similar on weekdays and weekends despite the different usage patterns.
+
+**How it complements this portfolio:** This project demonstrates end-to-end exploratory data
+analysis on a large, real-world civic dataset — from data cleaning and feature engineering through
+visualization, pattern discovery, and formal hypothesis testing. It adds a pure EDA perspective
+to the portfolio, showing that insight generation doesn't always require a predictive model.
 
 ---
 
